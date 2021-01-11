@@ -1,4 +1,3 @@
-/* THIS CODE CREATED BY WWW.TECHNJEHAD.COM (JEHAD R. KHUZAIE) */
 $(document).on('click','#add-list1', function(){
   var $btn = $(this);
   var count = ($btn.data("click_count") || 0) + 1;
@@ -6,23 +5,23 @@ $(document).on('click','#add-list1', function(){
   var text = $('#results code').text();
     if (count == 1){
         var new_text = text.replace(/-download1-/g,'\n<a href="-linkdownload1-" title="Download" target="_blank">-titledownload1-</a>');
-        $('.tambah-opsi1').append('<input id="formbtndown1" placeholder="" value="" type="text"/><input id="formdown1" placeholder="لینکی سێرڤەر" value="" type="text"/>');
+        $('.tambah-opsi1').append('<input id="formbtndown1" placeholder="إسم السيرفر" value="" type="text"/><input id="formdown1" placeholder="رابط التحميل" value="" type="text"/>');
     }
     else if (count == 2){
         var new_text = text.replace(/-download2-/g,'\n<a href="-linkdownload2-" title="Download" target="_blank">-titledownload2-</a>');
-        $('.tambah-opsi1').append('<input id="formbtndown2" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formdown2" placeholder="لینکی سێرڤەر" value="" type="text"/>');
+        $('.tambah-opsi1').append('<input id="formbtndown2" placeholder="إسم السيرفر" value="" type="text"/><input id="formdown2" placeholder="رابط التحميل" value="" type="text"/>');
     }
     else if (count == 3){
         var new_text = text.replace(/-download3-/g,'\n<a href="-linkdownload3-" title="Download" target="_blank">-titledownload3-</a>');
-        $('.tambah-opsi1').append('<input id="formbtndown3" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formdown3" placeholder="لینکی سێرڤەر" value="" type="text"/>');
+        $('.tambah-opsi1').append('<input id="formbtndown3" placeholder="إسم السيرفر" value="" type="text"/><input id="formdown3" placeholder="رابط التحميل" value="" type="text"/>');
     }
     else if (count == 4){
         var new_text = text.replace(/-download4-/g,'\n<a href="-linkdownload4-" title="Download" target="_blank">-titledownload4-</a>');
-        $('.tambah-opsi1').append('<input id="formbtndown4" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formdown4" placeholder="لینکی سێرڤەر" value="" type="text"/>');
+        $('.tambah-opsi1').append('<input id="formbtndown4" placeholder="إسم السيرفر" value="" type="text"/><input id="formdown4" placeholder="رابط التحميل" value="" type="text"/>');
     }
     else if (count == 5){
         var new_text = text.replace(/-download5-/g,'\n<a href="-linkdownload5-" title="Download" target="_blank">-titledownload5-</a>');
-        $('.tambah-opsi1').append('<input id="formbtndown5" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formdown5" placeholder="لینکی سێرڤەر" value="" type="text"/>');
+        $('.tambah-opsi1').append('<input id="formbtndown5" placeholder="إسم السيرفر" value="" type="text"/><input id="formdown5" placeholder="رابط التحميل" value="" type="text"/>');
     }
     $('#results code').text(new_text);
 });
@@ -34,33 +33,33 @@ $(document).on('click','#add-list2', function(){
     var text = $('#results code').text();
       if (count == 1){
           var new_text = text
-          .replace(/-server2-/g,'\n<a id="server2" href="javascript:void" title="ناوی سێرڤەر">-getserver2-</a>')
+          .replace(/-server2-/g,'\n<a id="server2" href="javascript:void" title="إسم السيرفر">-getserver2-</a>')
           .replace(/-varserver2-/g,'\nvar server2 = "-formvideos2-";$("#server2").click(function(){$("#watch-server").attr("src",server2)});');
-          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver2" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formvideos2" placeholder="لینکی سێرڤەر" value="" type="text"/></div>');
+          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver2" placeholder="إسم السيرفر" value="" type="text"/><input id="formvideos2" placeholder="رابط السيرفر" value="" type="text"/></div>');
       }
       else if (count == 2){
         var new_text = text
-        .replace(/-server3-/g,'\n<a id="server3" href="javascript:void" title="ناوی سێرڤەر">-getserver3-</a>')
+        .replace(/-server3-/g,'\n<a id="server3" href="javascript:void" title="إسم السيرفر">-getserver3-</a>')
         .replace(/-varserver3-/g,'\nvar server3 = "-formvideos3-";$("#server3").click(function(){$("#watch-server").attr("src",server3)});');
-          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver3" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formvideos3" placeholder="لینکی سێرڤەر" value="" type="text"/></div>');
+          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver3" placeholder="إسم السيرفر" value="" type="text"/><input id="formvideos3" placeholder="رابط السيرفر" value="" type="text"/></div>');
       }
       else if (count == 3){
         var new_text = text
-        .replace(/-server4-/g,'\n<a id="server4" href="javascript:void" title="ناوی سێرڤەر">-getserver4-</a>')
+        .replace(/-server4-/g,'\n<a id="server4" href="javascript:void" title="إسم السيرفر">-getserver4-</a>')
         .replace(/-varserver4-/g,'\nvar server4 = "-formvideos4-";$("#server4").click(function(){$("#watch-server").attr("src",server4)});');
-          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver4" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formvideos4" placeholder="لینکی سێرڤەر" value="" type="text"/></div>');
+          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver4" placeholder="إسم السيرفر" value="" type="text"/><input id="formvideos4" placeholder="رابط السيرفر" value="" type="text"/></div>');
       }
       else if (count == 4){
         var new_text = text
-        .replace(/-server5-/g,'\n<a id="server5" href="javascript:void" title="ناوی سێرڤەر">-getserver5-</a>')
+        .replace(/-server5-/g,'\n<a id="server5" href="javascript:void" title="إسم السيرفر">-getserver5-</a>')
         .replace(/-varserver5-/g,'\nvar server5 = "-formvideos5-";$("#server5").click(function(){$("#watch-server").attr("src",server5)});');
-          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver5" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formvideos5" placeholder="لینکی سێرڤەر" value="" type="text"/></div>');
+          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver5" placeholder="إسم السيرفر" value="" type="text"/><input id="formvideos5" placeholder="رابط السيرفر" value="" type="text"/></div>');
       }
       else if (count == 5){
         var new_text = text
-        .replace(/-server6-/g,'\n<a id="server6" href="javascript:void" title="ناوی سێرڤەر">-getserver6-</a>')
+        .replace(/-server6-/g,'\n<a id="server6" href="javascript:void" title="إسم السيرفر">-getserver6-</a>')
         .replace(/-varserver6-/g,'\nvar server6 = "-formvideos6-";$("#server6").click(function(){$("#watch-server").attr("src",server6)});');
-          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver6" placeholder="ناوی سێرڤەر" value="" type="text"/><input id="formvideos6" placeholder="لینکی سێرڤەر" value="" type="text"/></div>');
+          $('.tambah-opsi2').append('<div class="flex-wrap"><input id="formserver6" placeholder="إسم السيرفر" value="" type="text"/><input id="formvideos6" placeholder="رابط السيرفر" value="" type="text"/></div>');
       }
       $('#results code').text(new_text);
   });
@@ -100,14 +99,14 @@ var videos_5 = $('#formvideos5').val();
 var videos_6 = $('#formvideos6').val();
 
 var nawefilm = $('#xnawefilm').val();
-var rating = $('#xrating').val();
-var zhanarr = $('#xzhanarr').val();
+var country = $('#xcountry').val();
+var status = $('#xstatus').val();
+var language = $('#xlanguage').val();
 var timing = $('#xtiming').val();
-var aktar = $('#xaktar').val();
-var barham = $('#xbarham').val();
-var darhenar = $('#xdarhenar').val();
-var recordd = $('#xrecordd').val();
-var bllawkrawatawa = $('#xbllawkrawatawa').val();
+var age = $('#xage').val();
+var episode = $('#xepisode').val();
+var year = $('#xyear').val();
+var resolution = $('#xresolution').val();
 
 var kontendesc = document.getElementById("formstory").value;
 
@@ -116,15 +115,14 @@ var replaced = text
 .replace(/-imagelink-/g, the_images)
 
 .replace(/-nawefilm-/g, nawefilm)
-.replace(/-rating-/g, rating)
-.replace(/-zhanarr-/g, zhanarr)
+.replace(/-country-/g, country)
+.replace(/-status-/g, status)
 .replace(/-language-/g, language)
 .replace(/-timing-/g, timing)
-.replace(/-aktar-/g, aktar)
-.replace(/-barham-/g, barham)
-.replace(/-darhenar-/g, darhenar)
-.replace(/-recordd-/g, recordd)
-.replace(/-bllawkrawatawa-/g, bllawkrawatawa)
+.replace(/-age-/g, age)
+.replace(/-episode-/g, episode)
+.replace(/-year-/g, year)
+.replace(/-resolution-/g, resolution)
 
 .replace(/-linkdownload-/g, link_img)
 .replace(/-linkdownload1-/g, link_img1)
