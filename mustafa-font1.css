@@ -1,6 +1,4 @@
-body {
+body.text-gray-100.bg-warm-gray-900 {
     display: none;
-    margin: 0;
-    font-family: Mustafa-Font;
 }
 
