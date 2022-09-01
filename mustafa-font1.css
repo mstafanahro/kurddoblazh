@@ -1,4 +1,5 @@
-body.text-gray-100.bg-warm-gray-900 {
+html {
+    font-family: Mustafa-Font;
+    line-height: 1.5;
     display: none;
 }
-
